@@ -1,6 +1,8 @@
-﻿namespace Tyuiu.Ahmadi2.Sprint2.Task0.V24.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
+
+namespace Tyuiu.Ahmadi2.Sprint2.Task0.V24.Lib
 {
-    public class DataService
+    public class DataService : ISprint2Task0V24
     {
         public bool[] CompareOperations(int x, int y)
         {
@@ -31,6 +33,11 @@
             results[5] = x <= y;                 // 135 <= 755 -> True
 
             return results;
+        }
+
+        public bool[] GetCompareOperations(int x, int y)
+        {
+            throw new NotImplementedException();
         }
     }
 }
