@@ -10,7 +10,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task0.V24
             DataService ds = new DataService();
 
             Console.WriteLine("*************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("*************************");
 
             int x = 135;
