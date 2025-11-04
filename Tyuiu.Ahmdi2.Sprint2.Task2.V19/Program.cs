@@ -9,7 +9,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task2.V19
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #2 | Выполнил: Ахмади | ИИПб-23-1";
+            Console.Title = "Спринт #2 | Выполнил: Ахмади | АСОиб 25-1";
             Console.WriteLine("*************************");
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Тема: Оператор if – полная и короткая форма записи                      *");
