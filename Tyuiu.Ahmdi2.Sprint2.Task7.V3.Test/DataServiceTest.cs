@@ -16,6 +16,6 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task7.V3.Test
 
             // Точка вне заштрихованной области 
             Assert.IsFalse(ds.CheckDotInShadedArea(0, 1.5));
-        }
+        } 
     }
 }
