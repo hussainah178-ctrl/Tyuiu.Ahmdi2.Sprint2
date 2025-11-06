@@ -1,11 +1,12 @@
 ﻿using System;
-
+using Tyuiu.Ahmadi2.Sprint2.Task6.V8.Lib;
 namespace Tyuiu.Ahmadi2.Sprint2.Task6.V8
 {
     class Program
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт #2 | Выполнил: Ахмади | АСОиб 25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
@@ -32,7 +33,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task6.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string result = GetPreviousDate(n, m);
+            string result = ds.FindDateOfPreviousDay(n, m);
             Console.WriteLine($"Предыдущая дата: {result}");
 
             Console.ReadKey();
