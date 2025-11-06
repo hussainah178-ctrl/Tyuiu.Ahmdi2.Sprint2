@@ -1,5 +1,4 @@
-﻿using System;
-using Tyuiu.Ahmadi2.Sprint2.Task6.V8.Lib;
+﻿using Tyuiu.Ahmdi2.Sprint2.Task6.V8.Lib;
 namespace Tyuiu.Ahmadi2.Sprint2.Task6.V8
 {
     class Program
