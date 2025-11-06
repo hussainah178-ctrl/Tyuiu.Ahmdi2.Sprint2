@@ -1,6 +1,4 @@
-﻿using System;
-using tyuiu.cources.programming.interfaces.Sprint2;
-
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.Ahmdi2.Sprint2.Task5.V12.Lib
 {
     public class DataService : ISprint2Task5V12
