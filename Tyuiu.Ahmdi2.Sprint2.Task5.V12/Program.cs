@@ -41,7 +41,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task5.V12
             Console.WriteLine("* RESULT:                                                                 *");
             Console.WriteLine("*************************");
 
-            string result = ds.FindDateOfPreviousDay(g, m, n);
+            double result = ds.FindDateOfPreviousDay(g, m, n);
             Console.WriteLine($"Date of the previous day: {result}");
 
             Console.ReadKey();

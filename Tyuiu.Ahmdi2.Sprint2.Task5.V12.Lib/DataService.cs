@@ -5,7 +5,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task5.V12.Lib
 {
     public class DataService : ISprint2Task5V12
     {
-        public string FindDateOfPreviousDay(int g, int m, int n)
+        public double FindDateOfPreviousDay(int g, int m, int n)
         {
             int prevDay = n - 1;
             int prevMonth = m;
@@ -39,17 +39,13 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task5.V12.Lib
                         prevDay = 30;
                         break;
                     case 2:
-                        prevDay = 29; 
+                        prevDay = 29;
                         break;
                 }
             }
 
-            return $"{prevDay}.{prevMonth}.{prevYear}";
-        }
-
-        double ISprint2Task5V12.FindDateOfPreviousDay(int g, int m, int n)
-        {
-            throw new NotImplementedException();
+            string a = $"{prevDay}.{prevMonth}.{prevYear}";
+            return double.Parse(a);
         }
     }
 }
