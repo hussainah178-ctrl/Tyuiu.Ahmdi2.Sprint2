@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using System.Globalization;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.Ahmdi2.Sprint2.Task6.V8.Lib
 {
@@ -39,8 +40,22 @@ namespace Tyuiu.Ahmdi2.Sprint2.Task6.V8.Lib
                 };
 
             }
-
-            return $"{prevDay}.{prevMonth}";
+            string res1 = Convert.ToString(prevDay);
+            string res2 = Convert.ToString(prevMonth);
+            if (prevDay < 10 && prevMonth >= 10)
+            {
+                return "0" + res1 + "." + res2;
+            }
+            else if (prevMonth < 10 && prevDay >= 10)
+            {
+                return res1 + "." + "0" + res2;
+            }
+            else if (prevMonth < 10 && prevDay < 10)
+            {
+                return "0" + res1 + "." + "0" + res2;
+            }
+            else
+                return res1 + "." + res2;
         }
     }
 }
