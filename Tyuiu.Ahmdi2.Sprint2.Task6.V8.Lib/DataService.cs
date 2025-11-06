@@ -7,11 +7,6 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task6.V8.Lib
     {
         public string FindDateOfPreviousDay(int m, int n)
         {
-            throw new NotImplementedException();
-        }
-
-        public string FindPreviousDate(int n, int m)
-        {
             if (n < 1 || n > 12)
                 throw new ArgumentException("Номер месяца должен быть от 1 до 12");
 
