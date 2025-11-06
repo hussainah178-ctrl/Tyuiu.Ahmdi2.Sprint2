@@ -38,6 +38,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task6.V8.Lib
                     2 => 28, // Предполагаем невисокосный год
                     _ => 31 // Для месяца 0 (декабрь предыдущего года)
                 };
+
             }
 
             return $"{prevDay}.{prevMonth}";
