@@ -1,4 +1,5 @@
 ﻿using System;
+using Tyuiu.Ahmadi2.Sprint2.Task7.V3.Lib;
 
 namespace Tyuiu.Ahmadi2.Sprint2.Task7.V3
 {
@@ -6,6 +7,7 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task7.V3
     {
         public static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт #2 | Выполнил: Ахмади | АСОиб 25-1";
             Console.WriteLine("***************************************************************************************************");
             Console.WriteLine("* Спринт #2                                                                                       *");
@@ -28,8 +30,6 @@ namespace Tyuiu.Ahmadi2.Sprint2.Task7.V3
 
             Console.Write("Введите координату Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine();
             Console.WriteLine("***************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                      *");
             Console.WriteLine("***************************************************************************************************");
